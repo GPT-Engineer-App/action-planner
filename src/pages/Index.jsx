@@ -22,7 +22,10 @@ const Index = () => {
   };
 
   return (
-    <Box maxW="md" mx="auto" mt={8}>
+    <Box maxW="md" mx="auto" mt={4}>
+      <Heading as="h1" size="xl" textAlign="center" mb={4}>
+        My Tasks
+      </Heading>
       <Heading mb={6}>Todo App</Heading>
       <VStack spacing={4}>
         <HStack>
